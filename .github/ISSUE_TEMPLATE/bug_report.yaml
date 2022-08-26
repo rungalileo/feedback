@@ -4,6 +4,7 @@ title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
   - sethmbrown
+  - quiquelores
 body:
   - type: markdown
     attributes:
@@ -22,7 +23,7 @@ body:
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen? Screen recordings or click paths help to resolve issues faster!
-      placeholder: Tell us what you see!
+      placeholder: Tell us what you see! Add screen recordings or click paths to help us resolve the issue faster!
     validations:
       required: true
   - type: dropdown
@@ -35,9 +36,11 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      description: Please copy and paste any relevant log output (hit F12, go to 'console', copy/ paste any errors).
       render: shell
