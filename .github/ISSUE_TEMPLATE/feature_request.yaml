@@ -1,7 +1,7 @@
 name: Feature Request
 description: We love to hear about ways in which we can improve!
 title: "[Feature]: "
-labels: ["feature", "triage"]
+labels: ["enhancement", "triage"]
 assignees:
   - sethmbrown
   - quiquelores
